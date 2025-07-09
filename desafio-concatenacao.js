@@ -1,3 +1,5 @@
+// ---- ** Dia da Semana ** ----
+
 diaDaSemana = prompt('Qual é o dia da semana?');
 
 if (diaDaSemana == 'Quarta-Feira') {
@@ -10,6 +12,9 @@ if (diaDaSemana == 'Quarta-Feira') {
     alert ('Boa semana!');
 }
 
+
+// ---- ** Positivo ou Negativo ** ----
+
 numero = prompt ('Digite um positivo ou negativo');
 
 if (numero > 0){
@@ -17,6 +22,9 @@ if (numero > 0){
 } else { 
     alert ('Número negativo!')
 }
+
+
+// ---- ** Pontuação ** ----
 
 pontuacao = prompt ('Insira uma pontuação.');
 
@@ -26,7 +34,10 @@ if (pontuacao >= 100) {
     alert ('Tente novamente para ganhar.')
 }
 
-let saldoConta = 1000; // Exemplo
+
+// ---- ** Saldo e contatenação ** ----
+
+let saldoConta = 1000;
 alert(`Seu saldo é de R$${saldoConta}.`);
 
 let nome = prompt('Qual o seu nome?');
