@@ -35,7 +35,7 @@ if (pontuacao >= 100) {
 }
 
 
-// ---- ** Saldo e contatenação ** ----
+// ---- ** Saldo e concatenação ** ----
 
 let saldoConta = 1000;
 alert(`Seu saldo é de R$${saldoConta}.`);
