@@ -1,11 +1,11 @@
 // ---- ** Dia da Semana ** ----
 
-diaDaSemana = prompt('Qual é o dia da semana?');
+let diaDaSemana = prompt('Qual é o dia da semana?');
 
-if (diaDaSemana == 'Quarta-Feira') {
+if (diaDaSemana == 'Sábado') {
     alert ('Bom fim de semana!');
 
-} else if (diaDaSemana == 'Quinta-Feira') {
+} else if (diaDaSemana == 'Domingo') {
     alert ('Bom fim de semana!');
 
 } else {
@@ -15,7 +15,7 @@ if (diaDaSemana == 'Quarta-Feira') {
 
 // ---- ** Positivo ou Negativo ** ----
 
-numero = prompt ('Digite um positivo ou negativo');
+let numero = prompt ('Digite um positivo ou negativo');
 
 if (numero > 0){
     alert ('Número positivo!')
@@ -26,7 +26,7 @@ if (numero > 0){
 
 // ---- ** Pontuação ** ----
 
-pontuacao = prompt ('Insira uma pontuação.');
+let pontuacao = prompt ('Insira uma pontuação.');
 
 if (pontuacao >= 100) {
     alert ('Parabéns, você venceu!')
